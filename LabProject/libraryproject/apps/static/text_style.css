@@ -1,0 +1,27 @@
+/* Styling for the header */
+.header-format {
+    color: green;
+    background-color: #f1f1d8;
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+    border-left: 5px solid green;
+}
+
+/* General styling for body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Styling for mark */
+mark {
+    background-color: yellow;
+    color: black;
+}

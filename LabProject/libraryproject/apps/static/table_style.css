@@ -1,0 +1,55 @@
+/* General table styling */
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for Table 1 with double border */
+.table1 {
+    width: 30%;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 16px;
+    border: 3px double black;  /* Added double border */
+}
+
+.table1 th, .table1 td {
+    border: 3px double black;  /* Double border for cells */
+    padding: 10px;
+    text-align: center;
+}
+
+.table1 caption {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+/* Styling for Table 2 */
+.table2 {
+    width: 70%;
+    margin: 20px auto;
+    font-size: 16px;
+}
+
+.table2 th, .table2 td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.table2 img {
+    display: block;
+    margin: 0 auto;
+}
+
+.table2 caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.table2 .center {
+    text-align: center;
+    font-weight: bold;
+}

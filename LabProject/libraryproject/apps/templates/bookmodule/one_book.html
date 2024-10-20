@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <title>Book Details</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+
+<body>
+
+    <a href="{% url 'books.list_books' %}">Go Back</a>
+
+    <h1>Details of Book {{ bookId }}</h1>
+    <h2>Book Title: Internet & World Wide Web How to Program (or another title)</h2>
+    <h2>Author: Author Name</h2>
+    <p>A description of the book will go here.</p>
+
+    <img src="{% static 'book1.jpg' %}" alt="Book image" width="200" height="200">
+
+</body>
+</html>

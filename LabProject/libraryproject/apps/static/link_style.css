@@ -1,0 +1,62 @@
+/* General link block styling */
+.link-block {
+    padding: 20px;
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+}
+
+/* First link block */
+#link1 {
+    background-color: lightgreen;
+}
+
+#link1 a {
+    color: red;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#link1 a:hover {
+    text-decoration: underline;
+}
+
+/* Second link block */
+#link2 {
+    background-color: grey;
+}
+
+#link2 a {
+    color: orange;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#link2 a:hover {
+    text-decoration: underline;
+}
+
+/* Third link block */
+#link3 {
+    background-color: black;
+}
+
+#link3 a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#link3 a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for visited links */
+a:visited {
+    color: purple;
+}
+
+/* Styling for active link */
+a:active {
+    color: blue;
+}

@@ -1,0 +1,29 @@
+/* Styling for the listing header */
+.header-listing {
+    background-color: #5a9ea0;
+    color: white;
+    font-size: 32px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* General styling for the list */
+ul {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Nested ordered lists styling */
+ol {
+    margin-left: 20px;
+    list-style-type: decimal;
+}
+
+ol li, ul li {
+    margin: 5px 0;
+}
