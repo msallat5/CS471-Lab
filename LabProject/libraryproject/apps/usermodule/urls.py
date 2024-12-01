@@ -21,5 +21,10 @@ urlpatterns = [
     path('gallery/', views.gallery_list, name='gallery_list'),
     path('gallery/add/', views.add_image, name='add_image'),
     path('gallery/delete/<int:id>/', views.delete_image, name='delete_image'),
+
     
+    path('register/', views.register, name='register'),
+    path('login/', views.login_view, name='login'),
+    path('logout/', views.logout_view, name='logout'),
+
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
