@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 1</title>
+    <script>
+        function changeBackgroundColor() {
+            document.getElementById('targetDiv').style.backgroundColor = 'lightblue';
+        }
+
+        function changeText() {
+            document.getElementById('targetDiv').textContent = 'Text has been changed!';
+        }
+    </script>
+    <style>
+        #targetDiv {
+            width: 300px;
+            height: 150px;
+            border: 2px solid black;
+            text-align: center;
+            line-height: 150px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Task 1: JavaScript Interaction</h1>
+    <button onclick="changeBackgroundColor()">Change Background Color</button>
+    <button onclick="changeText()">Change Text</button>
+
+    <div id="targetDiv">This is the target div</div>
+</body>
+</html>

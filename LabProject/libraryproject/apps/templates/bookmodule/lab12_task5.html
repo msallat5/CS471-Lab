@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 5</title>
+    <script>
+        function createTable() {
+            const table = document.createElement('table');
+            table.border = '1'; 
+
+            const headerRow = table.insertRow();
+            const headers = ['Name', 'Age', 'City'];
+            for (const headerText of headers) {
+                const th = document.createElement('th');
+                th.textContent = headerText;
+                headerRow.appendChild(th);
+            }
+
+            const data = [
+                ['Mustafa', 23, 'Riyadh'],
+                ['Faris', 25, 'Jeddah'],
+                ['Mohammad', 20, 'Dammam']
+            ];
+            for (const row of data) {
+                const tableRow = table.insertRow();
+                for (const cellText of row) {
+                    const cell = tableRow.insertCell();
+                    cell.textContent = cellText;
+                }
+            }
+
+            document.getElementById('tableDiv').appendChild(table);
+        }
+
+        window.onload = createTable;
+    </script>
+</head>
+<body>
+    <h1>Task 5: Create Table</h1>
+    <div id="tableDiv"></div>
+</body>
+</html>

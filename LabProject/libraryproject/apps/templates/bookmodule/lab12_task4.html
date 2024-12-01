@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 4</title>
+    <script>
+        function onHover() {
+            const div = document.getElementById('targetDiv');
+            div.style.backgroundColor = 'lightblue';
+            div.style.fontSize = '24px';
+        }
+
+        function onLeave() {
+            const div = document.getElementById('targetDiv');
+            div.style.backgroundColor = '';
+            div.style.fontSize = '16px';
+        }
+    </script>
+    <style>
+        #targetDiv {
+            width: 300px;
+            height: 150px;
+            border: 2px solid black;
+            text-align: center;
+            line-height: 150px;
+            font-size: 16px;
+            margin-top: 20px;
+            transition: all 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Task 4: Hover Effect</h1>
+
+    <div id="targetDiv" onmouseover="onHover()" onmouseout="onLeave()">
+        Hover over me!
+    </div>
+</body>
+</html>

@@ -205,3 +205,16 @@ def delete_book2(request, id):
         book.delete()
         return redirect('/books/lab9_part2/booklist2')
     return render(request, 'bookmodule/delete_book2.html', {'book': book})
+
+
+#Lab12
+def task1(request):
+    return render(request, 'bookmodule/lab12_task1.html')
+def task2(request):
+    return render(request, 'bookmodule/lab12_task2.html')
+def task3(request):
+    return render(request, 'bookmodule/lab12_task3.html')
+def task4(request):
+    return render(request, 'bookmodule/lab12_task4.html')
+def task5(request):
+    return render(request, 'bookmodule/lab12_task5.html')
