@@ -1,6 +1,6 @@
-from django.shortcuts import render
 from django.http import HttpResponse 
-from .models import Book, Student, Address
+from .models import Book
+from apps.usermodule.models import Student, Address
 from django.db.models import Q
 from django.db.models import Count, Sum, Avg, Max, Min
 from django.shortcuts import render, redirect, get_object_or_404

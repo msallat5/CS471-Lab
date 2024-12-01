@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Address List</title>
+</head>
+<body>
+    <h1>Address List</h1>
+    <a href="{% url 'add_address2' %}">Add New Address</a>
+    <ul>
+        {% for address in addresses %}
+        <li>{{ address.street }}, {{ address.city }} - {{ address.zipcode }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

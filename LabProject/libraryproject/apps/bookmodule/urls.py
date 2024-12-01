@@ -20,6 +20,7 @@ urlpatterns = [
     path('lab8/task5', views.book_list_task5, name='book_list_task5'),
     path('students/lab8/task7', views.students_per_city, name='students_per_city'),
     
+    #Lab9
     path('lab9_part1/booklist9', views.booklist9, name='booklist9'),
     path('lab9_part1/addbook', views.add_book, name='add_book'),
     path('lab9_part1/editbook/<int:id>', views.edit_book, name='edit_book'),
